@@ -22,7 +22,7 @@ document.onkeydown = function(e) {
 function password() {
     var keyentered = prompt("Enter password to continue")
     var x = document.getElementById("toggle-blocker");
-    if (keyentered == GlDkju) {
+    if (keyentered == "GlDkju") {
        x.style.display = "none";
     }
     else {
